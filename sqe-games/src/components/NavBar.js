@@ -15,7 +15,7 @@ function NavBar() {
             <Nav.Link href="/puzzle2">Puzzle 2</Nav.Link>
             <Nav.Link href="/puzzle3">Puzzle 3</Nav.Link>
             <Nav.Link href="/puzzle4">Puzzle 4</Nav.Link>
-            <Nav.Link href="#link">Puzzle 5</Nav.Link>
+            <Nav.Link href="/puzzle5">Puzzle 5</Nav.Link>
             <Nav.Link href="#link">Puzzle 6</Nav.Link>
             <Nav.Link href="#link">Puzzle 7</Nav.Link>
             <Nav.Link href="#link">Puzzle 8</Nav.Link>

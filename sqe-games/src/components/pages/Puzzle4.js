@@ -47,7 +47,7 @@ function Puzzle4() {
               <Form.Control
                 type="text"
                 disabled
-                value={formData.firstName.toLowerCase() === 'automated' ? 'Correct! Your clue for this puzzle is: "T"' : ''}
+                value={formData.firstName.toLowerCase() === 'automated' ? 'Correct! Your clue for this puzzle is: "XPath:"' : ''}
               />
             </Form.Group>
           </div>
@@ -72,7 +72,7 @@ function Puzzle4() {
               <Form.Control
                 type="text"
                 disabled
-                value={formData.lastName.toLowerCase().replace(' ', '')  === 'whitebox' || formData.lastName.toLowerCase().replace(' ', '') === 'white-box' ? 'Correct! Your clue for this puzzle is: "M"' : ''}
+                value={formData.lastName.toLowerCase().replace(' ', '')  === 'whitebox' || formData.lastName.toLowerCase().replace(' ', '') === 'white-box' ? 'Correct! Your clue for this puzzle is: "//input"' : ''}
               />
             </Form.Group>
           </div>
@@ -81,7 +81,7 @@ function Puzzle4() {
         <div className="row">
           <div className="col-6">
             <Form.Group className="mb-3" controlId="formEmail">
-              <Form.Label> ______ testing with testing individual components after they are combined</Form.Label>
+              <Form.Label> ______ testing deals with testing individual components after they are combined</Form.Label>
               <Form.Control
                 type="text"
                 name="email"
@@ -97,7 +97,7 @@ function Puzzle4() {
               <Form.Control
                 type="text"
                 disabled
-                value={formData.email.toLowerCase() === 'integration' ? 'Correct! Your clue for this puzzle is: "B"' : ''}
+                value={formData.email.toLowerCase() === 'integration' ? 'Correct! Your clue for this puzzle is: "[@"' : ''}
               />
             </Form.Group>
           </div>
@@ -122,12 +122,13 @@ function Puzzle4() {
               <Form.Control
                 type="text"
                 disabled
-                value={formData.phone.toLowerCase() === 'load' ? 'Correct! Your clue for this puzzle is: "S"' : ''}
+                value={formData.phone.toLowerCase() === 'load' ? 'Correct! Your clue for this puzzle is: "answer]"' : ''}
               />
             </Form.Group>
           </div>
         </div>
       </Form>
+      <h2 className="text-center mt-5">Will you find the hidden answer inside this puzzle?</h2>
     </Container>
   );
 }
