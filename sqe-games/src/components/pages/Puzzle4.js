@@ -35,7 +35,7 @@ function Puzzle4() {
                 type="text"
                 name="firstName"
                 placeholder="Enter your answer"
-                answer="John"
+                answer="T"
                 value={formData.firstName}
                 onChange={handleChange}
               />

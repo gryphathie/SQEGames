@@ -174,7 +174,7 @@ function Puzzle3() {
           variant="secondary" 
           onClick={() => {
             if (hint == 3) {
-              setHintResult('Correct! your clue for this puzzle is: "A"');
+              setHintResult('Correct! your clue for this puzzle is: "S"');
             } else {
               setHintResult('Try again, you can do better!');              
             }

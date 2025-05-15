@@ -75,7 +75,7 @@ function Puzzle1() {
           variant="secondary" 
           onClick={() => {
             if (hint.toLowerCase() === 'blackbox') {
-              setHintResult('Correct! your clue for this puzzle is: "A"');
+              setHintResult('Correct! your clue for this puzzle is: "T"');
             } else {
               setHintResult('Try again');
             }

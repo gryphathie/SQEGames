@@ -90,7 +90,7 @@ function Puzzle2() {
       data[2].severity === 'Medium' && data[2].priority === 'P3' && 
       data[3].severity === 'Critical' && data[3].priority === 'P1' && (
         <div className="mt-3 text-center text-success">
-          <h4>Correct! your clue for this puzzle is: "S"</h4>
+          <h4>Correct! your clue for this puzzle is: "3"</h4>
         </div>
       )}
     </Container>

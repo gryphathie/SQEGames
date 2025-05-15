@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Container } from 'react-bootstrap';
-import { Form } from 'react-bootstrap';
+
 function Puzzle5() {
     const [answer, setAnswer] = useState('');
 
@@ -22,7 +22,7 @@ function Puzzle5() {
 
       {answer === '82.5' && (
         <div className="text-center mt-3 text-success">
-          Correct! Your clue for this puzzle is: "E"
+          Correct! Your clue for this puzzle is: "3"
         </div>
       )}
     </Container>
