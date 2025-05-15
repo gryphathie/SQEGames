@@ -16,8 +16,8 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <BrowserRouter>
-        <Routes>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <Routes>          
         <Route path="/" element={<Home />} />
         <Route path="/puzzle1" element={<Puzzle1 />} />
         <Route path="/puzzle2" element={<Puzzle2 />} />
