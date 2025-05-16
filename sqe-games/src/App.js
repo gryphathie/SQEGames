@@ -15,20 +15,20 @@ import Home from './components/pages/Home';
 function App() {
   return (
     <div className="App">
-      <NavBar />
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      <BrowserRouter basename="/SQEGames">
+        <NavBar />
         <Routes>          
-        <Route path="/" element={<Home />} />
-        <Route path="/puzzle1" element={<Puzzle1 />} />
-        <Route path="/puzzle2" element={<Puzzle2 />} />
-        <Route path="/puzzle3" element={<Puzzle3 />} />
-        <Route path="/puzzle4" element={<Puzzle4 />} />
-        <Route path="/puzzle5" element={<Puzzle5 />} />
-        <Route path="/puzzle6" element={<Puzzle6 />} />
-        <Route path="/puzzle7" element={<Puzzle7 />} />
-        <Route path="/escape_room" element={<Escape />} />
+          <Route path="/" element={<Home />} />
+          <Route path="/puzzle1" element={<Puzzle1 />} />
+          <Route path="/puzzle2" element={<Puzzle2 />} />
+          <Route path="/puzzle3" element={<Puzzle3 />} />
+          <Route path="/puzzle4" element={<Puzzle4 />} />
+          <Route path="/puzzle5" element={<Puzzle5 />} />
+          <Route path="/puzzle6" element={<Puzzle6 />} />
+          <Route path="/puzzle7" element={<Puzzle7 />} />
+          <Route path="/escape_room" element={<Escape />} />
         </Routes>
-    </BrowserRouter>
+      </BrowserRouter>
     </div>
   );
 }

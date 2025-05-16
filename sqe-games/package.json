@@ -2,7 +2,7 @@
   "name": "sqe-games",
   "version": "0.1.0",
   "private": false,
-  "homepage": "https://gryphathie.github.io/SQEGames/",
+  "homepage": "https://gryphathie.github.io/SQEGames",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -19,7 +19,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "predeployd": "npm run build",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
